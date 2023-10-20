@@ -99,3 +99,311 @@
 .banner-img img {
     width: 100%;
 }
+
+.full{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dtail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-left{
+   
+}
+.pic{
+    gap: 20px;
+    display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr)
+}
+.pic img{
+    width: 335px;
+    height: 335px;
+    
+}
+
+.text{
+
+}
+
+
+.text h1{
+font-family:sans-serif;
+font-weight: 700px;
+color: gray;
+font-size: 45px;
+
+
+
+
+}
+.text strong{
+    color: black;
+}
+
+.text span{
+    font-family: sans-serif;
+    color: rgb(241, 127, 86) ;
+}
+
+.btn-on{padding: 15px 20px;
+    border-radius: 8px;
+    color: black;
+    background: paleturquoise;
+    border: none;
+    cursor: pointer;
+    transition: 5s all ease;
+
+}
+.btn-on:hover{
+
+    background: tomato;
+    transition: 0.9s all ease;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.main-right{
+    padding-left: 40px;
+
+}
+
+
+.all-detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 100px;
+
+}
+
+
+.txt{
+    width: 460px;
+}
+
+.auto{
+    border-left:  3px solid orangered;
+    padding-left: 30px;
+}
+
+
+.txt h1{
+
+color: ( #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    
+    
+    font-weight: 700;
+    line-height: normal;}
+
+    .txt p{
+        color: var(--Dark-03, #727272);
+            font-family: Work Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            
+    }
+
+
+
+
+
+    .dt h1{
+        color: ( #131313);
+            font-family: Work Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding: 7px 0;
+    }
+    .dt p{
+        color: (#727272);
+            font-family: Work Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            
+    }
+
+    .one{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        padding: 13px 15px;
+        margin: 20px 0;
+    }
+    .two{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        padding: 13px 15px;
+        margin: 20px 0;
+    }
+    .three{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+        padding: 13px 15px;
+        margin: 20px 0;
+    }
+    .four{
+     
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        padding: 13px 15px;
+        margin: 20px 0;
+    }
+ 
+
+
+ 
+
+    .pi{
+        position: relative;
+    }
+    .pi img{ width: 700px;
+        height: 800px;
+
+    }
+    .position{
+        position: absolute;
+    }
+
+    .position button{
+    width: 342px;
+        height: 200px;
+        background-color: orangered;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 66px;
+        color: azure;
+
+    }
+        .position button span{
+       font-size: 30px;
+       padding-bottom: 20px;
+        }
+
+
+
+
+        .mai{
+            width: 500px;
+           
+            margin-top: 200px;
+
+        }
+        .mai h1{
+            font-size: 50px;
+            font-family: sans-serif;
+            font-weight: 700;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .mai p{
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 300;
+            color: rgb(53, 50, 50);
+        }
+
+
+
+.star{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+}
+
+
+
+
+
+
+
+.frist{
+    border: solid yellow;
+    height: 240px;
+    width: 240px;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 60px;
+}
+
+        .frist h1{
+            font-size: 40px;
+            
+        }
+        .frist p{
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 200;
+            
+        }
+        .frist i{
+            font-size: 60px;
+        }
+
+        .sta{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 600px;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+
+        .sta h1{
+            font-size: 40px;
+            font-family: serif;
+            font-weight: 300;
+            color: black;
+            
+            
+        }
+        .sta h3{
+            font-size: 20px;
+            font-family: serif;
+            font-weight: 100;
+            
+        }
+ .st{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+    margin: 120px 0;
+ }
+        .second i{
+            font-size: 60px;
+        }
+
+
+.s{
+    justify-content: center;
+    align-items: center;
+
+}
+        
+        
+.s input{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 30px 500px;
+    background-color: bisque;
+    margin-bottom: 300px;
+    
+
+}
