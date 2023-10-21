@@ -452,9 +452,9 @@ color: ( #131313);
     
 }
 
-.font i{
+.font a{
     font-size: 60px;
-    
+    cursor: pointer;
 }
 
 
